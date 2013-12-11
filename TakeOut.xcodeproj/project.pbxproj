@@ -13,22 +13,9 @@
 		DD50E7651857919000B2C285 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD50E7631857919000B2C285 /* Credits.rtf */; };
 		DD50E7681857919000B2C285 /* TOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD50E7671857919000B2C285 /* TOAppDelegate.m */; };
 		DD50E76B1857919000B2C285 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD50E7691857919000B2C285 /* MainMenu.xib */; };
-		DD50E76D1857919000B2C285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD50E76C1857919000B2C285 /* Images.xcassets */; };
-		DD50E7741857919000B2C285 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD50E7731857919000B2C285 /* XCTest.framework */; };
-		DD50E7751857919000B2C285 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD50E7541857919000B2C285 /* Cocoa.framework */; };
-		DD50E77D1857919000B2C285 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD50E77B1857919000B2C285 /* InfoPlist.strings */; };
-		DD50E77F1857919000B2C285 /* TakeOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD50E77E1857919000B2C285 /* TakeOutTests.m */; };
+		DD72F3201858FBD700A46B64 /* restaurant-24.png in Resources */ = {isa = PBXBuildFile; fileRef = DD72F31F1858FBD700A46B64 /* restaurant-24.png */; };
+		DD72F3231858FCDE00A46B64 /* TOStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD72F3221858FCDE00A46B64 /* TOStatusView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DD50E7761857919000B2C285 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD50E7491857919000B2C285 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD50E7501857919000B2C285;
-			remoteInfo = TakeOut;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DD50E7511857919000B2C285 /* TakeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,12 +31,9 @@
 		DD50E7661857919000B2C285 /* TOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOAppDelegate.h; sourceTree = "<group>"; };
 		DD50E7671857919000B2C285 /* TOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOAppDelegate.m; sourceTree = "<group>"; };
 		DD50E76A1857919000B2C285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		DD50E76C1857919000B2C285 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DD50E7721857919000B2C285 /* TakeOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD50E7731857919000B2C285 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DD50E77A1857919000B2C285 /* TakeOutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeOutTests-Info.plist"; sourceTree = "<group>"; };
-		DD50E77C1857919000B2C285 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DD50E77E1857919000B2C285 /* TakeOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeOutTests.m; sourceTree = "<group>"; };
+		DD72F31F1858FBD700A46B64 /* restaurant-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant-24.png"; sourceTree = "<group>"; };
+		DD72F3211858FCDE00A46B64 /* TOStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOStatusView.h; sourceTree = "<group>"; };
+		DD72F3221858FCDE00A46B64 /* TOStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOStatusView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD50E76F1857919000B2C285 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD50E7751857919000B2C285 /* Cocoa.framework in Frameworks */,
-				DD50E7741857919000B2C285 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				DD50E75A1857919000B2C285 /* TakeOut */,
-				DD50E7781857919000B2C285 /* TakeOutTests */,
 				DD50E7531857919000B2C285 /* Frameworks */,
 				DD50E7521857919000B2C285 /* Products */,
 			);
@@ -87,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				DD50E7511857919000B2C285 /* TakeOut.app */,
-				DD50E7721857919000B2C285 /* TakeOutTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				DD50E7541857919000B2C285 /* Cocoa.framework */,
-				DD50E7731857919000B2C285 /* XCTest.framework */,
 				DD50E7561857919000B2C285 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -117,8 +89,10 @@
 			children = (
 				DD50E7661857919000B2C285 /* TOAppDelegate.h */,
 				DD50E7671857919000B2C285 /* TOAppDelegate.m */,
+				DD72F3211858FCDE00A46B64 /* TOStatusView.h */,
+				DD72F3221858FCDE00A46B64 /* TOStatusView.m */,
 				DD50E7691857919000B2C285 /* MainMenu.xib */,
-				DD50E76C1857919000B2C285 /* Images.xcassets */,
+				DD72F31F1858FBD700A46B64 /* restaurant-24.png */,
 				DD50E75B1857919000B2C285 /* Supporting Files */,
 			);
 			path = TakeOut;
@@ -132,24 +106,6 @@
 				DD50E7601857919000B2C285 /* main.m */,
 				DD50E7621857919000B2C285 /* TakeOut-Prefix.pch */,
 				DD50E7631857919000B2C285 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DD50E7781857919000B2C285 /* TakeOutTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD50E77E1857919000B2C285 /* TakeOutTests.m */,
-				DD50E7791857919000B2C285 /* Supporting Files */,
-			);
-			path = TakeOutTests;
-			sourceTree = "<group>";
-		};
-		DD50E7791857919000B2C285 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD50E77A1857919000B2C285 /* TakeOutTests-Info.plist */,
-				DD50E77B1857919000B2C285 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,24 +130,6 @@
 			productReference = DD50E7511857919000B2C285 /* TakeOut.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD50E7711857919000B2C285 /* TakeOutTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD50E7851857919000B2C285 /* Build configuration list for PBXNativeTarget "TakeOutTests" */;
-			buildPhases = (
-				DD50E76E1857919000B2C285 /* Sources */,
-				DD50E76F1857919000B2C285 /* Frameworks */,
-				DD50E7701857919000B2C285 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD50E7771857919000B2C285 /* PBXTargetDependency */,
-			);
-			name = TakeOutTests;
-			productName = TakeOutTests;
-			productReference = DD50E7721857919000B2C285 /* TakeOutTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +139,6 @@
 				CLASSPREFIX = TO;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = MapBox;
-				TargetAttributes = {
-					DD50E7711857919000B2C285 = {
-						TestTargetID = DD50E7501857919000B2C285;
-					};
-				};
 			};
 			buildConfigurationList = DD50E74C1857919000B2C285 /* Build configuration list for PBXProject "TakeOut" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				DD50E7501857919000B2C285 /* TakeOut */,
-				DD50E7711857919000B2C285 /* TakeOutTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,18 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD72F3201858FBD700A46B64 /* restaurant-24.png in Resources */,
 				DD50E75F1857919000B2C285 /* InfoPlist.strings in Resources */,
-				DD50E76D1857919000B2C285 /* Images.xcassets in Resources */,
 				DD50E7651857919000B2C285 /* Credits.rtf in Resources */,
 				DD50E76B1857919000B2C285 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD50E7701857919000B2C285 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD50E77D1857919000B2C285 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,28 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD72F3231858FCDE00A46B64 /* TOStatusView.m in Sources */,
 				DD50E7611857919000B2C285 /* main.m in Sources */,
 				DD50E7681857919000B2C285 /* TOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD50E76E1857919000B2C285 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD50E77F1857919000B2C285 /* TakeOutTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DD50E7771857919000B2C285 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD50E7501857919000B2C285 /* TakeOut */;
-			targetProxy = DD50E7761857919000B2C285 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DD50E75D1857919000B2C285 /* InfoPlist.strings */ = {
@@ -299,14 +208,6 @@
 				DD50E76A1857919000B2C285 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		DD50E77B1857919000B2C285 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD50E77C1857919000B2C285 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,46 +307,6 @@
 			};
 			name = Release;
 		};
-		DD50E7861857919000B2C285 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TakeOut.app/Contents/MacOS/TakeOut";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TakeOut/TakeOut-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TakeOutTests/TakeOutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		DD50E7871857919000B2C285 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TakeOut.app/Contents/MacOS/TakeOut";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TakeOut/TakeOut-Prefix.pch";
-				INFOPLIST_FILE = "TakeOutTests/TakeOutTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,14 +326,7 @@
 				DD50E7841857919000B2C285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DD50E7851857919000B2C285 /* Build configuration list for PBXNativeTarget "TakeOutTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD50E7861857919000B2C285 /* Debug */,
-				DD50E7871857919000B2C285 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

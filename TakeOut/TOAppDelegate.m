@@ -8,11 +8,23 @@
 
 #import "TOAppDelegate.h"
 
+#import "TOStatusView.h"
+
+@interface TOAppDelegate ()
+
+@property (nonatomic) NSStatusItem *statusItem;
+
+@end
+
+#pragma mark -
+
 @implementation TOAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
+
+    [self.statusItem setView:[[TOStatusView alloc] initWithFrame:CGRectMake(0, 0, [[NSStatusBar systemStatusBar] thickness], [[NSStatusBar systemStatusBar] thickness])]];
 }
 
 @end
